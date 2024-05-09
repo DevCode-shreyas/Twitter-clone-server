@@ -15,7 +15,6 @@ export async function initServer() {
       sayHello: String 
       sayHelloToMe(name: String!): String
     }
-    
     `,
     resolvers: {
       Query: {
